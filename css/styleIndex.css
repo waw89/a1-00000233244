@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-wrapper{
+
+    display: grid;
+    grid-template-columns: 65% 35%;
+    background-color: rgb(45, 27, 135);
+}
+
+
+.information-wrapper div{
+    display: grid;
+    text-align: center;
+
+}
+
+.name-wrapper{
+    margin-top: 20%;
+}
+.name-wrapper h1{
+    font-family: Arial, Helvetica, sans-serifx;
+    font-size: 20vh;
+    font-weight: 800;
+    color: white;
+}
+.proffesion-wrapper h3{
+    font-family: Arial, Helvetica, sans-serifx;
+    
+    font-size: 3vw;
+}
+.categories-wrapper{
+    display: grid;
+    grid-template-rows: 33.33vh 33.33vh 33.33vh;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+
+
+.categories-wrapper div h1{
+    color: black;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 450%;
+    font-weight: 900;
+    color: transparent; 
+    -webkit-text-stroke-width: 0.05vw;
+    -webkit-text-stroke-color: white; 
+}
+
+.categories-wrapper div h1:hover{
+    color: whitesmoke; 
+   
+}
+
+.categories-wrapper div a{
+    text-decoration: none;
+
+}
+
+.categories-wrapper{
+    perspective: 1000px;
+}
+
+.text-3d{
+    
+    text-transform: uppercase;
+    transform: rotateY(-40deg) translateZ(20px);
+
+}
+
