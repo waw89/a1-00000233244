@@ -32,7 +32,7 @@
 }
 .categories-wrapper{
     display: grid;
-    grid-template-rows: 33.33vh 33.33vh 33.33vh;
+    grid-template-rows: 50vh 50vh;
     align-items: center;
     text-align: center;
     background-color: black;
