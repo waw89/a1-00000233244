@@ -1,4 +1,7 @@
+body{
 
+    background-color: black;
+}
 .title{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -8,10 +11,21 @@
 
 .movie-cards{
     display: grid;
-    grid-template-columns: 30% 33.33% 33.33%;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    gap: 0.5vw;
+    margin-left: 5%;
+    margin-right: auto;
 }
 
 .movie-cards div{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.card{
+    background-color: rgb(112, 64, 183);
+    height: 60vh;
+    border-radius: 10%;
+    width: 80%;
 }
